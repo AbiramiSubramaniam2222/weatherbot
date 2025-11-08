@@ -73,27 +73,6 @@ The project showcases best practices for:
 
     The bot should respond with the weather description and temperature.
 
-## Adding a Screenshot of the Result
-
-1. Capture a screenshot of your chatbot responding with weather information.
-
-2. Save the image in a folder, e.g., `images/` (create this folder in project root if it doesn’t exist).
-
-3. Add the screenshot to README.md using this Markdown syntax:
-
-    ```
-    ## Sample Chatbot Interaction
-
-    ![Weatherbot in action](images/weatherbot_result.png:
-
-    ```
-    git add README.md images/weatherbot_result.png
-    git commit -m "Added screenshot of weatherbot response"
-    git push
-    ```
-
----
-
 ## Notes
 
 - The API key is loaded at runtime from the environment variable `OPENWEATHER_API_KEY` for security.
