@@ -1,15 +1,31 @@
-# Weatherbot
+# ☁️ Chatbot Weather Assistant  
+### 🔹 Rasa | OpenWeather API | Docker | Python
 
-A simple chatbot built using the Rasa framework that provides real-time weather information for user-specified cities by integrating with the OpenWeatherMap API.
+![Chatbot Demo](https://github.com/AbiramiSubramaniam2222/weatherbot/blob/main/chatbot_screenshot.png)
 
-## Project Overview
+---
 
-This Weatherbot demonstrates how to create a conversational AI that understands user queries about city weather conditions and responds with current temperature and weather descriptions. The bot's core functionality is implemented in custom actions that query the OpenWeatherMap API securely by using environment variables to manage API keys.
+## 💬 Overview  
+This project is an **AI-powered chatbot** built using the **Rasa open-source framework** that provides **real-time weather updates**.  
+It connects to the **OpenWeatherMap API**, processes user input with **NLP**, and responds conversationally with temperature, humidity, and weather conditions for any city.
 
-The project showcases best practices for:
-- Building chatbot backend custom actions with Rasa SDK.
-- Secure handling of API keys via `.env` files excluded from version control.
-- Basic Rasa setup including slots, intents, and actions.
+---
+
+## 🧠 Key Features
+- 🌦️ Fetches live weather data using **OpenWeatherMap API**  
+- 💬 Built with **Rasa NLU and Core** for intent recognition and dialogue management  
+- 🐳 Fully **containerized with Docker** for easy deployment  
+- ⚙️ Modular architecture with customizable intents and responses  
+- 📡 REST API integration for real-time responses  
+
+---
+
+## 🧰 Tech Stack
+- **Framework:** Rasa (Open Source)  
+- **Language:** Python  
+- **API:** OpenWeatherMap API  
+- **Containerization:** Docker  
+- **Libraries:** requests, json, asyncio  
 
 ## Project Structure
 
